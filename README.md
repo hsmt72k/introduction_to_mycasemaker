@@ -82,7 +82,7 @@ https://mycasemaker.vercel.app
       1. [通常ユーザでのログイン](#login-with-normal-account)
       2. [管理者アカウントでのログイン](#login-with-admin-account)
    3. [ログアウト](#logout)
-2. [ランディングページ](#welcome-page)
+2. [ランディングページ](#landing-page)
    1. [ヒーローイメージ](#hero-image)
    2. [テスティモニアル（お客様の声）](#testimonials)
    3. [ショーケースアニメーション](#animation-of-show-case)
@@ -104,7 +104,9 @@ https://mycasemaker.vercel.app
 8. [Thank you メール](#thank-you-mail)
 9. [システム管理者専用の注文管理ページ](#dashboard)
 
-### <a name="account_register">1. アカウント登録</a>
+### <a name="authentication">1. 認証機能</a>
+
+#### <a name="account_register">1-1. アカウント登録</a>
 
 氏名とメールアドレス、または Google アカウントを使ってアカウント登録することができる。
 
@@ -112,9 +114,9 @@ https://mycasemaker.vercel.app
 
 <img src="./images/mycase_account_register.webp" width="480px" />
 
-### <a name="login">2. ログイン</a>
+#### <a name="login">1-2. ログイン</a>
 
-#### <a name="login-with-normal-account">2-1. 通常ユーザでのログイン</a>
+##### <a name="login-with-normal-account">1-2-1. 通常ユーザでのログイン</a>
 
 アカウント登録したメールアドレス、または Google アカウントを使ってログインすることができる。
 
@@ -122,7 +124,7 @@ https://mycasemaker.vercel.app
 
 <img src="./images/mycase_login.webp" width="480px" />
 
-#### <a name="login-with-admin-account">2-2. 管理者アカウントでのログイン</a>
+##### <a name="login-with-admin-account">1-2-2. 管理者アカウントでのログイン</a>
 
 管理者アカウントでログインすると、ナビゲーションバーに「ログアウト」リンクのほかに、「ダッシュボード ✨」リンクも表示される。
 
@@ -130,10 +132,28 @@ https://mycasemaker.vercel.app
 
 <img src="./images/mycase_login_with_admin_account.webp" width="480px" />
 
-#### <a name="logout">3. ログアウト</a>
+#### <a name="logout">1-3. ログアウト</a>
 
 ヘッダナビゲーションバーの「ログアウト」リンクをクリックすると、ログアウトされる。
 
 ログアウトすると、ランディングページ（入口のページ）に遷移する。
 
 <img src="./images/mycase_logout.webp" width="480px" />
+
+### <a name="landing-page">2. ランディングページ</a>
+
+サイトの入り口として、ルートパス（https://mycasemaker.vercel.app）にアクセスすると、ランディングページが表示される。
+
+サイトへの訪問者が最初にアクセスするページのことを通称、ランディングページ（LP）と呼んでいる。訪問者が最初に着地（landing）するページであることから、ランディングページと呼ばれる。
+
+ランディングページには、ログインユーザも、未ログインユーザもアクセスすることができる。
+
+#### <a name="hero-image">2-1. ヒーローイメージ</a>
+
+ヒーローイメージとは、ウェブサイトのトップページの先頭に目立つように表示される、サイズの大きい、特徴的な画像のこと。
+
+サイトのイメージとして、ユーザに強い印象を与えることを目的として、ヒーローイメージを表示させている。
+
+このサイトでは、デバイスサイズが小さい（表示ブラウザの横幅が狭い）場合は、ヒーローイメージがトップのメインメッセージエリアの下に回り込むようにレイアウトが変化する。
+
+<img src="./images/mycase_hero_image.webp" width="480px" />
