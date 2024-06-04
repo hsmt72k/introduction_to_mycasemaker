@@ -83,45 +83,26 @@ https://mycasemaker.vercel.app
       2. [管理者アカウントでのログイン](#login-with-admin-account)
    3. [ログアウト](#logout)
 2. [ランディングページ](#welcome-page)
-
    1. [ヒーローイメージ](#hero-image)
    2. [テスティモニアル（お客様の声）](#testimonials)
    3. [ショーケースアニメーション](#animation-of-show-case)
    4. [カスタマイズイメージ](#image-of-customization)
-
 3. [アップロードページ](#uploading-page)
 4. [カスタマイジングページ](#design-configurator)
-
-   1. [画像の大きさ調整](#hero-image)
-   2. [画像の位置調整](#hero-image)
-   3. [オプション選択](#hero-image)
-      1. [色の選択](#start-recording)
-      2. [iPhone モデルの選択](#start-recording)
-      3. [素材の選択](#start-recording)
-      4. [仕上げ加工の選択](#start-recording)
-   4. [「続ける」ボタン](#hero-image)
-
-5. [ミーティングに参加](#join-meeting)
-6. [ミーティング機能](#meeting-feature)
-   1. [準備画面](#setup)
-   2. [ミーティング画面](#meeting-page)
-      1. [録画を開始](#start-recording)
-      2. [リアクション](#reaction)
-      3. [画面共有](#share-screen)
-      4. [マイク](#mic)
-      5. [カメラ](#camera)
-      6. [通話終了](#leave-call)
-      7. [表示切替](#switch-grids)
-      8. [通話品質・パフォーマンス](#call-latency)
-      9. [参加者表示](#paticipants)
-      10. [コントロールメニュー（開催者）](#control-menu-as-organizer)
-      11. [コントロールメニュー（参加者）](#control-menu-as-paticipant)
-7. [今後のミーティング表示画面](#upcoming-page)
-8. [過去のミーティング表示画面](#previous-page)
-9. [録画チェック画面](#recordings-page)
-10. [プライベートルーム画面](#personal-room)
-11. [表示デバイスに柔軟に対応するレイアウト設計](#responsive)
-12. [ログアウト](#logged-out)
+   1. [画像の大きさ調整](#image-size-adjustment)
+   2. [画像の位置調整](#image-positioning)
+   3. [オプション選択](#select-options)
+      1. [色の選択](#color-options)
+      2. [iPhone モデルの選択](#model-options)
+      3. [素材の選択](#material-options)
+      4. [仕上げ加工の選択](#texture-options)
+   4. [「続ける」ボタン](#continue-button)
+   5. [ログインモーダル](#login-modal)
+5. [内容確認ページ](#preview-page)
+6. [決済ページ](#payment-page)
+7. [Thank you ページ](#thank-you-page)
+8. [Thank you メール](#thank-you-mail)
+9. [システム管理者専用の注文管理ページ](#dashboard)
 
 ### <a name="account_register">1. アカウント登録</a>
 
@@ -148,3 +129,11 @@ https://mycasemaker.vercel.app
 「ダッシュボード ✨」リンクをクリックすると、システム管理者専用ページに遷移する。
 
 <img src="./images/mycase_login_with_admin_account.webp" width="480px" />
+
+#### <a name="logout">3. ログアウト</a>
+
+ヘッダナビゲーションバーの「ログアウト」リンクをクリックすると、ログアウトされる。
+
+ログアウトすると、ランディングページ（入口のページ）に遷移する。
+
+<img src="./images/mycase_logout.webp" width="480px" />
