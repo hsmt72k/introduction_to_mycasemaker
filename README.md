@@ -76,18 +76,18 @@ https://mycasemaker.vercel.app
 
 ## <a name="example">🚀 アプリの利用サンプル</a>
 
-1. [認証機能](#authentication)
-   1. [アカウント登録](#account-register)
-   2. [ログイン](#login)
-      1. [通常ユーザでのログイン](#login-with-normal-account)
-      2. [管理者アカウントでのログイン](#login-with-admin-account)
-   3. [ログアウト](#logout)
-2. [ランディングページ](#landing-page)
-   1. [ヒーローイメージ](#hero-image)
+1. [認証機能](#authentication)★★★★★
+   1. [アカウント登録](#account-register)★★★★★
+   2. [ログイン](#login)★★★★★
+      1. [通常ユーザでのログイン](#login-with-normal-account)★★★★★
+      2. [管理者アカウントでのログイン](#login-with-admin-account)★★★★★
+   3. [ログアウト](#logout)★★★★★
+2. [ランディングページ](#landing-page)★★★★★
+   1. [ヒーローイメージ](#hero-image)★★★★★
    2. [テスティモニアル（お客様の声）](#testimonials)
-   3. [ショーケースアニメーション](#animation-of-show-case)
+   3. [ショーケースアニメーション](#animation-of-showcase)
    4. [カスタマイズイメージ](#image-of-customization)
-3. [アップロードページ](#uploading-page)
+3. [画像アップロードページ](#uploading-page)
 4. [カスタマイジングページ](#design-configurator)
    1. [画像の大きさ調整](#image-size-adjustment)
    2. [画像の位置調整](#image-positioning)
@@ -106,7 +106,7 @@ https://mycasemaker.vercel.app
 
 ### <a name="authentication">1. 認証機能</a>
 
-#### <a name="account_register">1-1. アカウント登録</a>
+#### <a name="account-register">1-1. アカウント登録</a>
 
 氏名とメールアドレス、または Google アカウントを使ってアカウント登録することができる。
 
@@ -158,7 +158,7 @@ https://mycasemaker.vercel.app
 
 <img src="./images/mycase_hero_image.webp" width="480px" />
 
-#### <a name="testimonials">2-1. テスティモニアル（お客様の声）</a>
+#### <a name="testimonials">2-2. テスティモニアル（お客様の声）</a>
 
 ページトップのメインメッセージ、ヒーローイメージの下にユーザの感想（testimonial）を表示している。
 
@@ -167,3 +167,31 @@ https://mycasemaker.vercel.app
 PC のような大きなデバイスでは、テスティモニアルは２つ横並びで表示される。小さなデバイスでは、テスティモニアルが２つ立て並びで表示されるようにレイアウトが変化するようにしている。
 
 <img src="./images/mycase_testimonials.webp" width="480px" />
+
+#### <a name="animation-of-showcase">2-3. ショーケースアニメーション</a>
+
+ユーザがランディングページを下にスクロールしていくと、トップメインメッセージ、ヒーローイメージ、テスティモニアルに続いて、iPhone ケースのショーケースアニメーションが流れるようになっている。
+
+「アプロードした画像を iPhone ケースにしたらどうなるのか？」
+
+その実例が分かるサンプルが、下から上に自動で流れていくアニメーションで表示される。今回は６０種類あるサンプルから、ランダムで次々に表示されていく。
+
+PC のような大きなデバイスでは、横に3列、iPhone ケースが縦に流れるような形になっている。左右の端の列は少し流れるスピードが速く、中央の列はスピードが緩やか。
+
+小さなデバイスでは、表示される列が２列になるよう、レイアウトが変化する。
+
+<img src="./images/mycase_animation_of_showcase.webp" width="480px" />
+
+#### <a name="image-of-customization">2-4. カスタマイズイメージ</a>
+
+アップロードした画像を iPhone ケースにしたらどうなるか。
+
+ランディングページの最下部には、アップロード画像と iPhone ケースに加工したものを並べて比較しているセクションがある。
+
+左にアップロード画像、右向きの矢印で示す先に iPhone ケースに加工したもの。Before、After が分かるようにしている。
+
+カスタマイズイメージの下には商品特長を４つのリスト（ブレット：bullet）で伝えている。
+
+最後に「ケースを作成」するボタンある。「ケースを作成」ボタンをクリックすると、画像アップロードページに遷移し、iPhone ケースの作成工程に移る。
+
+<img src="./images/mycase_image_of_customization.webp" width="480px" />
