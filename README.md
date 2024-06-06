@@ -76,14 +76,14 @@ https://mycasemaker.vercel.app
 
 ## <a name="example">🚀 アプリの利用サンプル</a>
 
-1. [認証機能](#authentication)★★★★★
-   1. [アカウント登録](#account-register)★★★★★
-   2. [ログイン](#login)★★★★★
-      1. [通常ユーザでのログイン](#login-with-normal-account)★★★★★
-      2. [管理者アカウントでのログイン](#login-with-admin-account)★★★★★
-   3. [ログアウト](#logout)★★★★★
-2. [ランディングページ](#landing-page)★★★★★
-   1. [ヒーローイメージ](#hero-image)★★★★★
+1. [認証機能](#authentication)
+   1. [アカウント登録](#account-register)
+   2. [ログイン](#login)
+      1. [通常ユーザでのログイン](#login-with-normal-account)
+      2. [管理者アカウントでのログイン](#login-with-admin-account)
+   3. [ログアウト](#logout)
+2. [ランディングページ](#landing-page)
+   1. [ヒーローイメージ](#hero-image)
    2. [テスティモニアル（お客様の声）](#testimonials)
    3. [ショーケースアニメーション](#animation-of-showcase)
    4. [カスタマイズイメージ](#image-of-customization)
@@ -97,8 +97,11 @@ https://mycasemaker.vercel.app
       3. [素材の選択](#material-options)
       4. [仕上げ加工の選択](#texture-options)
    4. [「続ける」ボタン](#continue-button)
-   5. [ログインモーダル](#login-modal)
 5. [内容確認ページ](#preview-page)
+   1. [「注文する」ボタン](#continue-button)
+      1. [ログインしていない場合](#not-logged-in)
+      2. [ログインしている場合](#already-logged-in)
+   2. [ログインモーダル](#login-modal)
 6. [決済ページ](#payment-page)
 7. [Thank you ページ](#thank-you-page)
 8. [Thank you メール](#thank-you-mail)
@@ -218,3 +221,113 @@ iPhone ケースにしたい画像をアップロードする画面。
 画像アップロードエリアに表示されている通り、PNG、JPG、JPEG 以外の形式のファイルをアップロードしようとすると、エラーメッセージが画面下部にスライドインして表示される（トースト表示）。
 
 <img src="./images/mycase_error_message_toast_of_invalid_uploading_file_type.webp" width="480px" />
+
+### <a name="design-configurator">4. カスタマイジングページ</a>
+
+サイトの入り口として、
+
+<img src="./images/mycase_design_configurator.webp" width="480px" />
+
+#### <a name="image-size-adjustment">4-1. 画像の大きさ調整</a>
+
+アップロードした画像は、サイズを調整することができる。
+
+カスタマイジングページでは、画像には外枠が表示された状態になっている。この外枠の四隅はクリック可能な丸いハンドルになっている。
+
+ハンドルをマウスまたはタップでドラッグし、ドラッグ箇所を移動させることで画像の縮小、拡大が可能となる。
+
+<img src="./images/mycase_image_size_adjustment.webp" width="480px" />
+
+#### <a name="image-positioning">4-2. 画像の位置調整</a>
+
+アップロードした画像は、位置を調整することができる。
+
+画像をマウスでホバーする（画像の上にマウスカーソルを重ねる）と、マウスカーソルが矢印が十字になった形に変化する。
+
+十字カーソルになった状態で画像をドラッグしたまま、マウスを移動させると移動させた位置に画像を持っていくことができる。
+
+<img src="./images/mycase_image_positioning.webp" width="480px" />
+
+#### <a name="select-options">4-3. オプション選択</a>
+
+##### <a name="color-options">4-3-1. 色の選択</a>
+
+カラーパレットから、好みの色を選択することで、iPhone ケースの色を変更することができる。
+
+このカラーパレットで色を変更する UX/UI（使用感/部品）は、Apple 公式サイトの iPhone ケースの販売ページにインスパイアされている。
+
+<img src="./images/mycase_color_options.webp" width="480px" />
+
+##### <a name="model-options">4-3-2. iPhone モデルの選択</a>
+
+
+
+<img src="./images/mycase_model_options.webp" width="480px" />
+
+##### <a name="material-options">4-3-3. 素材の選択</a>
+
+
+
+<img src="./images/mycase_material_options.webp" width="480px" />
+
+##### <a name="texture-options">4-3-4. 仕上げ加工の選択</a>
+
+
+
+<img src="./images/mycase_texture_options.webp" width="480px" />
+
+#### <a name="continue-button">4-4. 「続ける」ボタン</a>
+
+
+
+<img src="./images/mycase_continue_button.webp" width="480px" />
+
+### <a name="preview-page">5. 内容確認ページ</a>
+
+
+
+<img src="./images/mycase_preview_page.webp" width="480px" />
+
+#### <a name="continue-button">5-1. 「注文する」ボタン</a>
+
+##### <a name="not-logged-in">5-1-1. ログインしていない場合</a>
+
+
+
+<img src="./images/mycase_not_logged_in.webp" width="480px" />
+
+##### <a name="already-logged-in">5-1-2. ログインしている場合</a>
+
+
+
+<img src="./images/mycase_already_logged_in.webp" width="480px" />
+
+#### <a name="login-modal">5-2. ログインモーダル</a>
+
+
+
+<img src="./images/mycase_login_modal.webp" width="480px" />
+
+### <a name="payment-page">6. 決済ページ</a>
+
+
+
+<img src="./images/mycase_payment_page.webp" width="480px" />
+
+### <a name="thank-you-page">7. Thank you ページ</a>
+
+
+
+<img src="./images/mycase_thank_you_page.webp" width="480px" />
+
+### <a name="thank-you-mail">8. Thank you メール</a>
+
+
+
+<img src="./images/mycase_thank_you_mail.webp" width="480px" />
+
+### <a name="dashboard">9. システム管理者専用の注文管理ページ</a>
+
+
+
+<img src="./images/mycase_dashboard.webp" width="480px" />
