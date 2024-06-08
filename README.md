@@ -43,9 +43,9 @@ https://mycasemaker.vercel.app
 
 ## <a name="feature">🔋 アプリの機能</a>
 
-🛠️ Complete shop built from scratch in Next.js 14
+🛠️ ビジネスケースを想定したフルスクラッチのアプリ設計
 
-🎨 Custom artworks made by a professional illustrator
+🎨 サービスを印象づけるためのキャラクターコンセプト
 
 💻 サービス内容を伝える美しいランディングページ
 
