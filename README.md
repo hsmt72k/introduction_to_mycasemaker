@@ -5,11 +5,10 @@
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
     <img src="https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" />
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6"   alt="typescript" />
-    <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=fff" />
-    <img src="https://img.shields.io/badge/kinde-000?style=for-the-badge&logoColor=fff" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?logoColor=white&style=for-the-badge&logo=tailwindcss&color=06B6D4"   alt="tailwindcss" />
     <img src="https://img.shields.io/badge/shadcn%2Fui-000?style=for-the-badge&logo=shadcnui&logoColor=fff" />
     <img src="https://img.shields.io/badge/Headless%20UI-66E3FF.svg?style=for-the-badge&logo=Headless-UI&logoColor=000" />
+        <img src="https://img.shields.io/badge/kinde-000?style=for-the-badge&logoColor=fff" />
     <img src="https://img.shields.io/badge/Framer-0055FF.svg?style=for-the-badge&logo=Framer&logoColor=fff" />
     <img src="https://img.shields.io/badge/Prisma-2D3748.svg?style=for-the-badge&logo=Prisma&logoColor=fff" />
     <img src="https://img.shields.io/badge/Zod-3E67B1.svg?style=for-the-badge&logo=Zod&logoColor=fff" />
@@ -39,7 +38,7 @@
 
 ## <a name="url">🔗 URL</a>
 
-myCaseMaker | Make Custom High-Quality Phone Cases in Seconds  
+myCaseMaker | 高品質なオリジナル iPhone ケース作成サービス  
 https://mycasemaker.vercel.app
 
 ## <a name="feature">🔋 アプリの機能</a>
@@ -48,31 +47,27 @@ https://mycasemaker.vercel.app
 
 🎨 Custom artworks made by a professional illustrator
 
-### 💻 サービス内容を伝える美しいランディングページ
+💻 サービス内容を伝える美しいランディングページ
 
-### 🔑 ユーザ認証システム
+🔑 メールアドレスまたは Google アカウントによるユーザ認証システム
 
-メールアドレスまたは Google アカウントによるユーザ認証
+🖥️ ドラッグ＆ドロップによるファイルアップロード
 
-### 💳 システム管理者専用ページで注文管理
+🛒 完全カスタムの iPhone ケース設定ツール
 
-メールアドレス、または Google アカウントのログインによりユーザ認証を保護
+🛍️ Stripe 社のサービスを利用した決済システム
 
-### 🖥️ ドラッグ＆ドロップによるファイルアップロード
+✉️ 購入後にユーザにお礼メールを自動送信
 
-### 🛍️ 顧客は貴社から直接購入できる
+💳 システム管理者専用ページで注文管理
 
-### 🌟 シンプルでモダンな UX/UI 設計
+🌟 シンプルでモダンな UX/UI 設計
 
-### 🛒 完全カスタムの携帯ケース設定ツール
+✅ どんなデバイスでも崩れず美しく表示するレスポンシブレイアウト設計
 
-### ✉️ 購入後にユーザにお礼メールを自動送信
+⌨️ 100% TypeScript で作られた堅牢で保守性の高いソースコード
 
-### ✅ どんなデバイスでも崩れず美しく表示するレスポンシブレイアウト設計
-
-### ⌨️ 100% TypeScript で作られた堅牢で保守性の高いソースコード
-
-🎁 ...much more
+🎁 ... その他、ユーザフレンドリーな機能が多数
 
 ## <a name="example">🚀 アプリの利用サンプル</a>
 
@@ -224,7 +219,11 @@ iPhone ケースにしたい画像をアップロードする画面。
 
 ### <a name="design-configurator">4. カスタマイジングページ</a>
 
-サイトの入り口として、
+画像のアップロードが完了すると、ケースのカスタマイジングページに自動的に移動する。
+
+カスタマイジングページの構成は、左側にビジュアルエディタ、右側にオプション選択エリアになっている。
+
+小さなデバイスでは、エリアの表示が横並びではなく、立て並びに変化する。
 
 <img src="./images/mycase_design_configurator.webp" width="480px" />
 
@@ -250,6 +249,10 @@ iPhone ケースにしたい画像をアップロードする画面。
 
 #### <a name="select-options">4-3. オプション選択</a>
 
+作成する iPhone ケースのビジュアルエディタの右隣に、ケースのオプション選択エリアがある。 小さなデバイスでは、ビジュアルエディタとオプション選択エリアは、立て並びになるように、レイアウトが変化する。
+
+また、各オプションは、選択肢を増やすことが簡単にできるようになっている。
+
 ##### <a name="color-options">4-3-1. 色の選択</a>
 
 カラーパレットから、好みの色を選択することで、iPhone ケースの色を変更することができる。
@@ -260,74 +263,114 @@ iPhone ケースにしたい画像をアップロードする画面。
 
 ##### <a name="model-options">4-3-2. iPhone モデルの選択</a>
 
-
+セレクトボックスを使って、ケースに合わせる iPhone モデルを選択することができる。
 
 <img src="./images/mycase_model_options.webp" width="480px" />
 
 ##### <a name="material-options">4-3-3. 素材の選択</a>
 
-
+ケースの素材を、並んでいる選択肢の中から１つ選ぶようになっている。選んだ選択肢に設定されている価格により、表示されているケースの合計金額が変化する。
 
 <img src="./images/mycase_material_options.webp" width="480px" />
 
 ##### <a name="texture-options">4-3-4. 仕上げ加工の選択</a>
 
-
+ケースの仕上げ加工をどうするかについても、並んでいる選択肢の中から１つ選ぶようになっている。現状は２択になっているが、選択肢は簡単に増やせるようになっている。
 
 <img src="./images/mycase_texture_options.webp" width="480px" />
 
 #### <a name="continue-button">4-4. 「続ける」ボタン</a>
 
+「続ける」ボタンをクリックすると、ボタンは非活性（ボタンを押せない状態）になり、ボタンの表示が「保存中...」に変化する。
 
+ボタンの表示が「保存中...」になっている間は、ユーザが設定したカスタマイジング内容がデータベースに保存が行われる。
+
+データベースへの設定の保存が完了すると、内容確認ページに自動的に移動する。
 
 <img src="./images/mycase_continue_button.webp" width="480px" />
 
 ### <a name="preview-page">5. 内容確認ページ</a>
 
+内容確認ページの構成は、左側に iPhone ケースの完成イメージ、右側にケースの仕様表示エリアとなっている。
 
+右側にケースの仕様表示エリアには、ケースの仕様、それぞれのオプション価格、合計金額、「注文する」ボタンが表示される。
 
 <img src="./images/mycase_preview_page.webp" width="480px" />
 
 #### <a name="continue-button">5-1. 「注文する」ボタン</a>
 
+「注文する」ボタンをクリックした時の動作は、ユーザがログインしていない場合と、すでにログインしている場合とで異なる。
+
 ##### <a name="not-logged-in">5-1-1. ログインしていない場合</a>
 
-
+ユーザがログインしていない状態で「注文する」ボタンをクリックすると、ユーザにログインを促す、ログインモーダルが開くようになっている。
 
 <img src="./images/mycase_not_logged_in.webp" width="480px" />
 
 ##### <a name="already-logged-in">5-1-2. ログインしている場合</a>
 
-
+ユーザがすでにログインしている状態で「注文する」ボタンをクリックすると、自動的に決済ページに移動する。
 
 <img src="./images/mycase_already_logged_in.webp" width="480px" />
 
 #### <a name="login-modal">5-2. ログインモーダル</a>
 
+ログインしていないユーザが「注文する」ボタンをクリックすると、ログインモーダルが開く。
 
+ログインモーダルには、「ログイン」「アカウント登録」の２つのボタンがあり、各ボタンを選択することで、ログイン画面、アカウント登録画面に行くことができる。
+
+ログインが完了すると、ログインした状態で再度、内容確認ページが開く。
 
 <img src="./images/mycase_login_modal.webp" width="480px" />
 
 ### <a name="payment-page">6. 決済ページ</a>
 
+注文内容を確認した上で「注文する」ボタンをクリックすると、決済ページに遷移する。
 
+必要項目として、メールアドレス、氏名、住所を入力する。
+
+現状の決済システムは、テストモードになっているため、実際には決済が行われないダミー決済で処理が進むようになっている。
+
+ダミー決済を進めるためには、カード番号には「42」並びのダミー番号を入力する。「MM(月) / YY（年）」には、未来の月、年を入力する。セキュリティコードには任意の 3 桁の番号を入力する。
+
+すべての項目を入力して、「支払う」ボタンをクリックすると、ダミー決済処理が進む。ダミー決済が完了すると、Thank you ページに移動する。
 
 <img src="./images/mycase_payment_page.webp" width="480px" />
 
 ### <a name="thank-you-page">7. Thank you ページ</a>
 
+決済が完了すると、自動的に Thank you ページに移動し、注文内容の読み込みが始まる。
 
+注文内容の読み込み処理が完了すると、注文したケースの完成イメージが、iPhone ケースを手に握った状態のイメージで表示される。
+
+情報として、注文番号、配送先住所、請求先住所、支払い状況、配送方法、注文金額詳細が表示される。
 
 <img src="./images/mycase_thank_you_page.webp" width="480px" />
 
 ### <a name="thank-you-mail">8. Thank you メール</a>
 
+決済が完了すると、決済ページで入力したメールアドレス宛てに Thank you メールが送信される。
 
+Thank you メールには、注文ありがとうのメッセージとともに、お届け先住所、注文番号、注文日の情報が記載されている。
 
 <img src="./images/mycase_thank_you_mail.webp" width="480px" />
 
 ### <a name="dashboard">9. システム管理者専用の注文管理ページ</a>
 
+システム管理者用のメールアドレスでログインしている場合のみ、ヘッダナビゲーションバーに「ダッシュボード」リンクが表示される。
 
+この「ダッシュボード」リンクをクリックすると、システム管理者専用の注文管理ページを開くことができる。
+
+ページには、過去１週間に受けた注文合計金額が表示され、週の目標金額に対してどれだけの売り上げ達成をしているかが表示される。同じく、過去１か月間の状況についての情報も表示される。
+
+売り上げ情報の下には、受注状況一覧が表示される。受注状況一覧には、各注文の氏名、注文ステータス、購入日、購入金額が表示される。
+
+注文に対して発送が済んだり、配送が完了した時点で注文ステータスを変更することができる。
 
 <img src="./images/mycase_dashboard.webp" width="480px" />
+
+## <a name="outro">🤸 おわりに</a>
+
+このオリジナル iPhone ケース作成サービスには、他にも機能を拡充させる余地はいろいろとある。
+
+しかしながら、サービスを運用を開始するために必要な必要最低限の機能はひと通り備えている。メンテナンス、機能追加が容易なアプリ設計になっているため、サービスを開始してからから、必要に応じて機能追加していくことも十分に可能となっている。
