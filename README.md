@@ -8,9 +8,10 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?logoColor=white&style=for-the-badge&logo=tailwindcss&color=06B6D4"   alt="tailwindcss" />
     <img src="https://img.shields.io/badge/shadcn%2Fui-000?style=for-the-badge&logo=shadcnui&logoColor=fff" />
     <img src="https://img.shields.io/badge/Headless%20UI-66E3FF.svg?style=for-the-badge&logo=Headless-UI&logoColor=000" />
-        <img src="https://img.shields.io/badge/kinde-000?style=for-the-badge&logoColor=fff" />
+    <img src="https://img.shields.io/badge/kinde-000?style=for-the-badge&logoColor=fff" />
     <img src="https://img.shields.io/badge/Framer-0055FF.svg?style=for-the-badge&logo=Framer&logoColor=fff" />
     <img src="https://img.shields.io/badge/Prisma-2D3748.svg?style=for-the-badge&logo=Prisma&logoColor=fff" />
+    <img src="https://img.shields.io/badge/Neon-63F655.svg?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Zod-3E67B1.svg?style=for-the-badge&logo=Zod&logoColor=fff" />
     <img src="https://img.shields.io/badge/Resend-000000.svg?style=for-the-badge&logo=Resend&logoColor=fff" />
     <img src="https://img.shields.io/badge/uploadthing-E41321.svg?style=for-the-badge&logoColor=fff" />
